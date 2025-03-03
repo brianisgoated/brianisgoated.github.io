@@ -12,3 +12,15 @@ html{
     background-color: aliceblue;
 }
 
+.photobackground{
+    background-image: url(photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px 0;
+    background-attachment: fixed;
+    }
+
+.align-right{
+    text-align: right;
+}

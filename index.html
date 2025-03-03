@@ -9,17 +9,59 @@
 
    
     <h1>Welcome to Brian's basketball development website</h1>
-    <p>On this website, I will be showing my years of hardwork and trying out programs to enhance my basketball skills. I will also be covering how I improved my vertical jump to achieve a 35 inch vertical at 16 years old. </p>
     <div class="flexbox-grid" >
-      <div class="column-1">
-        <img src="brianisgoatedwebsitephoto1.jpg" alt="Progress throughout the years"
-          width="500"
-          length="300"/>
-          <p>2024-2025</p>
-      </div>
+
+      <style>
+          .column-1 {
+              text-align: right; /* Aligns the text to the right */
+          }
+          .border-box {
+              display: inline-block; /* Keeps the buttons inline */
+              margin: 5px; /* Adds some space between buttons */
+              padding: 10px; /* Adds some padding inside the buttons */
+              border: 1px solid #ccc; /* Adds a border to the buttons */
+              text-decoration: none; /* Removes underline from links */
+          }
+          #bottom {
+              margin-top: 1000px; /* Simulates a long page */
+          }
+      </style>
+  </head>
+  <body>
+    <div class="column-1">
+      <a class="border-box" href="#top">2024-2025</a>
+      <a class="border-box" href="#middle">2023-2024</a>
+      <a class="border-box" href="#bottom">2022-2023</a>
+  </div>
+
+  <!-- Content to simulate a long page -->
+  <div id="content">
+      <p id="top">This is the top of the page.</p>
+      <p id="middle">This is the middle of the page.</p>
+      <p id="bottom">This is the bottom of the page.</p>
+  </div>
+
+  <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+              e.preventDefault();
+
+              document.querySelector(this.getAttribute('href')).scrollIntoView({
+                  behavior: 'smooth'
+              });
+          });
+      });
+  </script>
+</body>
+</html>
+  </html>
+</div>
+
+        <div class="photobackground">
+        </div>
         
       <div class="flexbox-grid" >
-        <div class="column-1">
+        <div class="column-3">
         <img src="brianisgoatedwebsitephoto2.jpg" alt="Progress throughout the years"
           width="550"
           length="350"/>
