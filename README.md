@@ -12,3 +12,5 @@ My personal site.
 
 - [copilot] (https://github.com/copilot/share/c8365020-41e4-8c60-9911-c840e4940866) - 
 fixed my buttons
+
+- [w3schools] (https://www.w3schools.com/html/html5_video.asp) - to add video on website
