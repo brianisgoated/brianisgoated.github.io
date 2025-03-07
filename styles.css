@@ -12,6 +12,39 @@ html{
     background-color: aliceblue;
 }
 
+/* .flexbox-grid {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.button-container {
+    text-align: center; /* Centers the buttons horizontally */
+    margin-bottom: 20px; /* Adds some space below the buttons */
+}
+
+.border-box {
+    display: inline-block; /* Keeps the buttons inline */
+    margin: 5px; /* Adds some space between buttons */
+    padding: 10px; /* Adds some padding inside the buttons */
+    border: 1px solid #ccc; /* Adds a border to the buttons */
+    text-decoration: none; /* Removes underline from links */
+    background-color: #f0f0f0; /* Adds a background color to the buttons */
+    color: #000; /* Sets the text color */
+    border-radius: 5px; /* Rounds the corners of the buttons */
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.column-3 {
+    text-align: center;
+    margin: 10px;
+}
+
 .photobackground{
     background-image: url(2022team.png);
     background-size: cover;
@@ -21,6 +54,29 @@ html{
     background-attachment: fixed;
     }
 
+.photobackground2{
+    background-image: url(photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px 0;
+    background-attachment: fixed;
+    }
+
 .align-right{
     text-align: right;
+}
+
+.border-box:hover {
+    background-color: #e0e0e0; /* Changes background color on hover */
+}
+
+#content {
+    max-width: 800px; 
+    margin: 0 auto; /* Centers the content container */
+    padding: 20px; /* Adds padding inside the content container */
+}
+
+#bottom {
+    margin-top: 1000px; /* Simulates a long page */
 }
