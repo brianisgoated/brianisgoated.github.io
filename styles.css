@@ -46,20 +46,20 @@ html{
 }
 
 .photobackground{
-    background-image: url(2022team.png);
+    background-image: url(images/photo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 150px 0;
+    padding: 200px 200px;
     background-attachment: fixed;
     }
 
 .photobackground2{
-    background-image: url(photo.jpg);
+    background-image: url(images/2022team.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 150px 0;
+    padding: 200px 200px;
     background-attachment: fixed;
     }
 

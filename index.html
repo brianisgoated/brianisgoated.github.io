@@ -8,9 +8,14 @@
   <body>
 
     
-    <h1>Welcome to Brian's basketball development website</h1>
+    <h1>Welcome to Brian's basketball journey website</h1>
+    <div class="photobackground">
+    </div>
+
+    <h4>In this website I will be taking you to see my basketball developement throughout 2022-2025, this website will contain photos and videos of myself, as well as my dunking progress.</h4>
     <div class="flexbox-grid" >
       
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,42 +23,36 @@
     <title>Page Sections</title>
 
 </head>
-<body>
+
 
     <div class="button-container">
-        <a class="border-box" href="#top">2024-2025</a>
-        <a class="border-box" href="#middle">2023-2024</a>
-        <a class="border-box" href="#bottom">2022-2023</a>
+        <a class="border-box" href="#photos">photos</a>
     </div>
 
-    <!-- Content to simulate a long page -->
-    <div id="content">
-            <p id="top">This is the top of the page.</p>
-            <p id="middle">This is the middle of the page.</p>
+  
+    <div>
+            <h2>Video clips of me playing</h2>
 
-      <div class="photobackground2">
-      </div>
+            <video width="420" height="240" controls>
+              <source src="images/u14clip1.mov" type="video/mp4">
 
-      <div class="image-container">
-          <div class="column-3">
-              <img src="POTG1.jpg" alt="Progress throughout the years" width="350" length="250" />
-                <p>Season 1 Game 1 player of the game</p>
-          </div>
+            </video>
 
-          <div class="column-3">
-              <img src="POTG2.jpg" alt="Progress throughout the years" width="350" length="250" />
-              <p>Season 2 Game 1 player of the game</p>
-          </div>
+            <video width="420" height="240" controls>
+              <source src="images/u14clip2.mov" type="video/mp4">
 
-          <div class="column-3">
-              <img src="POTG3.jpg" alt="Progress throughout the years" width="350" length="250" />
-              <p>Season 2 Finals MVP</p>
-          </div>
-            </div>
+            </video>
+
+            <video width="420" height="240" controls>
+              <source src="images/u14clip3.mov" type="video/mp4">
+
+            </video>
+
             
-            <p id="bottom"></p>
+            <p id="photos"></p>
         </div>
 
+      
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -65,46 +64,43 @@
             });
         });
     </script>
-</body>
-</html>
 
-  </html>
+
 </div>
 
-        <div class="photobackground">
+
+      <h2>U14 Div 2 Gold Division Champions</h2>
+        <div class="photobackground2">
         </div>
         
       <div class="flexbox-grid" >
         <div class="column-3">
-        <img src="POTG1.jpg" alt="Progress throughout the years"
+        <img src="images/POTG1.jpg" alt="Progress throughout the years"
           width="350"
           length="250"/>
-          <p>Season 1 Game 1 player of the game</p>
+          <p>U14 Sketch Basketball League Season</p>
         </div>
 
         <div class="column-3">
-          <img src="POTG2.jpg" alt="Progress throughout the years"
+          <img src="images/POTG2.jpg" alt="Progress throughout the years"
             width="350"
             length="250"/>
-            <p>Season 2 Game 1 player of the game</p>
           </div>
 
           <div class="column-3">
-            <img src="POTG3.jpg" alt="Progress throughout the years"
+            <img src="images/POTG3.jpg" alt="Progress throughout the years"
               width="350"
               length="250"/>
-              <p>Season 2 Finals MVP</p>
             </div>
           
-            <html>
-              <body>
-              
-              <video width="520" height="340" controls>
-                <source src="testvideo.MOV" type="video/mp4">
-              </video>
-              
-              </body>
-              </html>
+            <button onclick="goToBlankPage()">Next Page</button>
+
+            <script>
+                // JavaScript function to handle the redirection
+                function goToBlankPage() {
+                    window.location.href = 'blank-page.html';
+                }
+            </script>
 
 
   </body>

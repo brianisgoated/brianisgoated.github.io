@@ -14,3 +14,9 @@ My personal site.
 fixed my buttons
 
 - [w3schools] (https://www.w3schools.com/html/html5_video.asp) - to add video on website
+
+- [copilot] (https://github.com/copilot/c/10487711-f38b-4cd8-b72f-65c1b915e0a0) - used to add more buttons.
+
+- [isfacademy] (https://academy.isf.edu.hk/) - took inspiration from the layout of the ISF home page
+
+- [youtube] (https://www.youtube.com/watch?v=8SL_hM1a0yo) - taught me how to design my columns and code it.
